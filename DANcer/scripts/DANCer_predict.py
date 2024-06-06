@@ -1,3 +1,5 @@
+#!/bin/env python
+
 # -*- coding: utf-8 -*-
 
 # Commented out IPython magic to ensure Python compatibility.
@@ -6,8 +8,12 @@
 
 # %tensorflow_version 2.x
 from __future__ import absolute_import, division, print_function, unicode_literals
-
 import sys, os
+
+if len(sys.argv) <= 2:
+    print("DANCer_predict.py [file with eigenvalues] [model weights]")
+    exit(1)
+
 import tensorflow as tf
 import pandas as pd
 import numpy as np
@@ -19,10 +25,6 @@ from keras import layers
 print("Tensorflow version: %s" % (tf.__version__))
 print("Keras version: %s" % (keras.__version__))
 print("Pandas version: %s" % (pd.__version__))
-
-if len(sys.argv) <= 2:
-    print("DANCer_predict.py [file with eigenvalues] [model weights]")
-    exit(1)
 
 # Define a classifier
 
