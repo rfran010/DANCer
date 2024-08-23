@@ -9,6 +9,10 @@ Created by Kat O'Neill & Molly Gale Hammell, January 2022
 
 Copyright (C) 2022-2024 Kat O'Neill & Molly Gale Hammell
 
+Website: [Molly Gale Hammell lab](https://www.mghlab.org/software)
+
+Contact: mghcompbio@gmail.com
+
 ## Installation
 
 ### Install miniconda
