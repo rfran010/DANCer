@@ -94,4 +94,4 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with DANCer. If not, see [this website](http://www.gnu.org/licenses/).
 
 ## Citation
-O'Neill K. et al. (2025)  Cell Rep. PMID: [40067829](https://pubmed.ncbi.nlm.nih.gov/40067829/)
+O'Neill K, Shaw R, Bolger I, NYGC ALS Consortium, Tam OH, Phatnani H, Gale Hammell M. (2025) ALS molecular subtypes are a combination of cellular and pathological features learned by deep multiomics classifiers. Cell Rep. PMID: [40067829](https://pubmed.ncbi.nlm.nih.gov/40067829/)
